@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <!-- Full Form: Magento/PageBuilder/view/adminhtml/ui_component/pagebuilder_image_form.xml -->
+    <fieldset name="seo" sortOrder="30">
+        <field name="desktop_loading" sortOrder="30" formElement="select">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="default" xsi:type="string">lazy</item>
+                </item>
+            </argument>
+            <settings>
+                <dataType>text</dataType>
+                <label translate="true">Desktop Image Loading</label>
+            </settings>
+            <formElements>
+                <select>
+                    <settings>
+                        <options>
+                            <option name="0" xsi:type="array">
+                                <item name="value" xsi:type="string">lazy</item>
+                                <item name="label" xsi:type="string" translate="true">Lazy</item>
+                            </option>
+                            <option name="1" xsi:type="array">
+                                <item name="value" xsi:type="string">eager</item>
+                                <item name="label" xsi:type="string" translate="true">Eager</item>
+                            </option>
+                        </options>
+                    </settings>
+                </select>
+            </formElements>
+        </field>
+        <field name="desktop_width" sortOrder="31" formElement="input">
+            <settings>
+                <label translate="true">Desktop Width</label>
+                <validation>
+                    <rule name="validate-string" xsi:type="boolean">true</rule>
+                </validation>
+            </settings>
+        </field>
+        <field name="desktop_height" sortOrder="32" formElement="input">
+            <settings>
+                <label translate="true">Desktop Height</label>
+                <validation>
+                    <rule name="validate-string" xsi:type="boolean">true</rule>
+                </validation>
+            </settings>
+        </field>
+        <field name="mobile_loading" sortOrder="33" formElement="select">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="default" xsi:type="string">lazy</item>
+                </item>
+            </argument>
+            <settings>
+                <dataType>text</dataType>
+                <label translate="true">Mobile Image Loading</label>
+            </settings>
+            <formElements>
+                <select>
+                    <settings>
+                        <options>
+                            <option name="0" xsi:type="array">
+                                <item name="value" xsi:type="string">lazy</item>
+                                <item name="label" xsi:type="string" translate="true">Lazy</item>
+                            </option>
+                            <option name="1" xsi:type="array">
+                                <item name="value" xsi:type="string">eager</item>
+                                <item name="label" xsi:type="string" translate="true">Eager</item>
+                            </option>
+                        </options>
+                    </settings>
+                </select>
+            </formElements>
+        </field>
+        <field name="mobile_width" sortOrder="34" formElement="input">
+            <settings>
+                <label translate="true">Mobile Width</label>
+                <validation>
+                    <rule name="validate-string" xsi:type="boolean">true</rule>
+                </validation>
+            </settings>
+        </field>
+        <field name="mobile_height" sortOrder="35" formElement="input">
+            <settings>
+                <label translate="true">Mobile Height</label>
+                <validation>
+                    <rule name="validate-string" xsi:type="boolean">true</rule>
+                </validation>
+            </settings>
+        </field>
+    </fieldset>
+</form>
