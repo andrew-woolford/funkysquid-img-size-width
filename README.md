@@ -4,7 +4,7 @@
 
 ## funkysquid_ImageExtender
 
-This module is a accordion module which uses the details & summary html tags and is fully accessible.
+This module extends the base Magento 2 page builder imgage content type with a height & width as well as loading=lazy/eager.
 
 > [!IMPORTANT]
 > Create a folder inside app/code called **FunkySquid** and place the module in there or it won't work.
