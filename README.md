@@ -14,7 +14,7 @@ This module is a accordion module which uses the details & summary html tags and
 
 * Open a CMS page or content area
 * View page builder section
-* Drag or edit and image content type
+* Drag or edit a image content type
 * Update height & width as well as loading
 * Save updates
 * View frontend
