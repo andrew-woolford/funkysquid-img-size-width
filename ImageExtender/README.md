@@ -1,5 +1,8 @@
 # FunkySquid_ImageExtender
 
-ImageExtender
+## Funky Squid image extender module.
 
-This is an extension of the Image content type. 
+This module extends the base Magento 2 page builder module's media > image uploader.
+
+This adds the height & width to both desktop & mobile, which helps with SEO, Also added
+is the ability to choose if the image loads with either loading=lazy or loading=eager.
